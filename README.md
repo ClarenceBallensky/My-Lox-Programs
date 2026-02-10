@@ -1,5 +1,5 @@
 # My Lox Programs
-A complete collection of the programs I created in Lox for the course CS4080 - Concepts of Programming Languages. Lox is a language used in the textbook "Crafting Interpreters." The Lox repository can be found [here](https://github.com/munificent/craftinginterpreters). 
+A complete collection of the programs I created in Lox and the modifications I made to Lox source files for the course CS4080 - Concepts of Programming Languages. The Lox repository can be found [here](https://github.com/munificent/craftinginterpreters). 
 
 ## How to run
 These instructions are intended for my reference only, and should not be considered a conclusive guide for the general public. For more information about setting up Lox on your machine, please reference the [Lox language repository](https://github.com/munificent/craftinginterpreters). 
