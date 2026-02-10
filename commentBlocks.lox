@@ -1,0 +1,15 @@
+// hello.lox
+print "Hello, Lox!";
+
+/* This is a comment block */
+
+/* This is a multi-
+line 
+comment
+block
+*/
+
+/*** This comment block has extra stars ***/
+
+/* This comment block * has * stars * and / slashes in the / middle of it */
+
