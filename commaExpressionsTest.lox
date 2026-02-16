@@ -1,0 +1,11 @@
+//Testing the support I added for comma expressions
+
+print "This value should be 5: ";
+//should return 5
+var a = 0;
+print (a = 3, a + 2);
+
+print "This value should be 3: ";
+//should return 3
+var a = 0;
+print (a = 3, a);
