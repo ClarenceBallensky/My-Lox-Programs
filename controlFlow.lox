@@ -1,0 +1,48 @@
+//Chapter 9, Challenge Problem 1
+//"Show how conditional execution can be implemented in terms of those."
+//Aka: use objects and methods instead of if statements to implement conditional logic
+
+//Instead of: "if (condition) doThis() else doThat();"
+//Do:         "condition.then(doThis, doThat);"
+//            condition is an object
+//            then() is a method
+//            doThis and doThat are functions
+
+//make cat object
+class Cat {
+    meow() {
+        print "meow";
+    }
+}
+
+var cat = Cat();
+
+//true class --> there is a cat!
+class True {
+  then(thenBranch, elseBranch) {
+    thenBranch();
+  }
+}
+
+//false class --> there is no cat
+class False {
+  then(thenBranch, elseBranch) {
+    elseBranch();
+  }
+}
+
+var condition = True(); //there is a cat!
+//If condition is:
+//    True() → it runs thenBranch() → cat.meow() -- there is a cat!
+//    False() → it runs elseBranch() → prints "No cat." -- there is no cat
+fun doMeow() {
+  cat.meow();
+}
+
+fun doNothing() {
+  print "No cat.";
+}
+
+condition.then(doMeow, doNothing); //If condition is True(), doMeow. If condition is False(), doNothing.
+
+//This program should output: "meow"
