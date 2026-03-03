@@ -1,3 +1,4 @@
+//CH 11, Q3
 // unused local variable -- should cause an error
 {
   var a = 10;
