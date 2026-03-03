@@ -1,0 +1,4 @@
+// unused local variable -- should cause an error
+{
+  var a = 10;
+}
