@@ -1,0 +1,4 @@
+//Purpose of this program is to see if the runtime error prints the correct line number. 
+
+print 1 + 2;
+print "hello" + 5; // runtime error
