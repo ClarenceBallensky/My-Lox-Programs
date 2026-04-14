@@ -1,0 +1,43 @@
+// sanity test
+var a = 1;
+var b = 2;
+var c = 3;
+
+print a;
+print b;
+print c;
+
+// string interning test
+var a = "hello";
+var b = "hello";
+
+print a == b; // should be true
+
+// overwrite test
+var a = 10;
+print a;
+
+a = 20;
+print a;
+
+// nil and boolean test
+var a = nil;
+var b = true;
+var c = false;
+
+print a;
+print b;
+print c;
+
+// collision + probing test
+var a = "a";
+var b = "b";
+var c = "c";
+var d = "d";
+var e = "e";
+
+print a;
+print b;
+print c;
+print d;
+print e;
